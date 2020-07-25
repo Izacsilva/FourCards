@@ -1,3 +1,63 @@
+}
+body .container{
+    display: flex;
+    flex-direction: column;
+    
+}
+header {
+    
+    width: 480px;
+}
+
 header .mediun {
     font-weight: 400;
+}
+
+.fourCards {
+    display: flex;
+
+}
+
+.fourCards .card {
+    background-color: white;
+    border-radius: 6px;
+    width: 400px;
+    height: 240px;
+
+    margin: 12px;
+    
+}
+
+.fourCards .card span {
+    background-color: tomato;
+
+    border-radius: 6px 6px 0 0;
+    display: block;
+    width: 460;
+    height: 7px;
+
+}
+
+/*color for cards*/
+.fourCards .card .line-Cyan {
+        background-color: var(--Cyan);
+
+}
+.fourCards .card .line-Red {
+    background-color: var(--Red);
+
+}
+.fourCards .card .line-Orange {
+    background-color: var(--Orange);
+
+}
+.fourCards .card .line-Blue {
+    background-color: var(--Blue);
+
+}
+
+main .card-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
