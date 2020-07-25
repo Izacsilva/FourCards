@@ -1,11 +1,11 @@
-}
+
 body .container{
-    display: flex;
-    flex-direction: column;
-    
+    /*width: 1440px;
+    max-width: 1440px;*/
+     
 }
 header {
-    
+    text-align: center;
     width: 480px;
 }
 
@@ -57,7 +57,8 @@ header .mediun {
 }
 
 main .card-elements {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    margin: 16px 14px 12px;
 }
