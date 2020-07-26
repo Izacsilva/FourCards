@@ -1,8 +1,6 @@
 # Frontend Mentor - Desafio: Seção de quartro cartões
 
-<h1 align="center">
-    <img src="/design/desktop-preview.jpg" alt="Preview do projeto">
-</h>
+![Preview do projeto](/design/desktop-design.jpg)
 
 ## Sobre
 
