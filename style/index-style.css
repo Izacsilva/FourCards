@@ -8,64 +8,107 @@ body .container{
 }
 header {
     text-align: center;
-    width: 480px;
+    padding: 70px 0px 50px 0;
 }
 
 header h1 {
-    font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
 }
 
 header h2 {
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 1.5rem;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--Very-Dark-Blue);
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .fourCards {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+
 
 }
 
 .fourCards .card {
-    background-color: white;
-    border-radius: 6px;
-    width: 400px;
-    height: 240px;
-
-    margin: 12px;
+    box-shadow: 2px 8px 14px 0px var(--Grayish-Blue);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 2rem 0;
+    max-width: 400px;
     
 }
 
 .fourCards .card div {
-    border-radius: 6px 6px 0 0;
-    display: block;
-    width: 460;
-    height: 7px;
+    
+    
+    
 }
 
 /*color for cards*/
 .fourCards .card .line-Cyan {
-    background-color: var(--Cyan);
-
+    border-top: 5px solid var(--Cyan);
+    margin: 0;
 }
 .fourCards .card .line-Red {
-background-color: var(--Red);
+    border-top: 5px solid var(--Red);
 
 }
 .fourCards .card .line-Orange {
-background-color: var(--Orange);
+    border-top: 5px solid var(--Orange);
 
 }
 .fourCards .card .line-Blue {
-background-color: var(--Blue);
-
+    border-top: 5px solid var(--Blue);
+    margin: 0;
 }
 
-section .card-elements {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+.card h2 {
+    color: var(--Very-Dark-Blue);
+    font-size: 1.5rem;
+}
 
-    margin: 16px 14px 12px;
+.card p {
+    font-size: 1rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+	margin-top: 30px;
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+    header h1,
+    header h2, {
+        font-size: 2em;
+    }
+    header p {
+        font-size: 1.1rem;
+    }
+    .cards {
+        flex-direction: row;
+    }
+    .card {
+        margin: 2rem;
+    }
 }
 
 
