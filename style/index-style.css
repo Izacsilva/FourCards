@@ -111,5 +111,19 @@ header p {
     }
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2rem;
+
+}
+
+footer img {
+    width: 10rem;
+    margin-right: 1rem;
+
+}
 
 
