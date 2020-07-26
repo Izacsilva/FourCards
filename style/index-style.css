@@ -11,8 +11,14 @@ header {
     width: 480px;
 }
 
-header .mediun {
+header h1 {
     font-weight: 400;
+    font-size: 1.8rem;
+}
+
+header h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .fourCards {
@@ -30,37 +36,37 @@ header .mediun {
     
 }
 
-.fourCards .card span {
-    background-color: tomato;
-
+.fourCards .card div {
     border-radius: 6px 6px 0 0;
     display: block;
     width: 460;
     height: 7px;
-
 }
 
 /*color for cards*/
 .fourCards .card .line-Cyan {
-        background-color: var(--Cyan);
+    background-color: var(--Cyan);
 
 }
 .fourCards .card .line-Red {
-    background-color: var(--Red);
+background-color: var(--Red);
 
 }
 .fourCards .card .line-Orange {
-    background-color: var(--Orange);
+background-color: var(--Orange);
 
 }
 .fourCards .card .line-Blue {
-    background-color: var(--Blue);
+background-color: var(--Blue);
 
 }
 
-main .card-elements {
+section .card-elements {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 
     margin: 16px 14px 12px;
 }
+
+
+
